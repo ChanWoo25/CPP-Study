@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stringstream.hpp
+iostream
+-
+sstream
+-
+
+/home/leecw/Reps/CPP-Study/include/stringstream.hpp
+iostream
+-
+sstream
+-
+
+/home/leecw/Reps/CPP-Study/main.cpp
+iostream
+-
+stringstream.hpp
+-
+
+/home/leecw/Reps/CPP-Study/src/stringstream.cpp
+../include/stringstream.hpp
+/home/leecw/Reps/CPP-Study/include/stringstream.hpp
+
